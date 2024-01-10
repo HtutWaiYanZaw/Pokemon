@@ -1,0 +1,27 @@
+Card Project
+ 
+Authentication ကို laravel sparten library သုံးထားပီးတော့ log in formကို manualဆောက်ထားပါတယ်
+
+Email-admin@gmail.com
+Password-1111
+
+(password ko databaseမာ hash key သုံးပေးထားပါတယ်)
+ပီး လိုအပ်မယ်ထင်တဲ့ dataတွေကို database seeder ထဲမှာ ထည့်ရေးပေးထားပါတယ်
+Cardကို left join သုံးထားပီးတော့ crudကို backend မှာရော apiမှာပါရေးပေးထားပါတယ်
+ထပ်မံလိုအပ်တဲ့ search api ကို cardထဲကnameနဲ့ search လို့ရအောင် apiထုတ်ပေးထားပီးတော့ filter apiက်ုတော့ super_typeထဲက nameနဲ့ချိတ်ပီးapiထုတ်ပေးထားပါတယ်
+//end for card
+ 
+//for shopping cart
+Shopping cart အတွက်ကတော့ index , add to cart , remove from cart နဲ့ checkoutဆိုပီး api only ထုတ်ပေးထားပါတယ်
+
+(Main)***User ကို spartie နဲ့ authခံထားတဲ့အတွက် userကို login အရင်၀င်ပေးပီး token မှတစ်ဆင့်မှ add to cartထဲ ထည့်လို့ရပါမယ်***
+
+ 
+Add to cart functionကတော့ cardတွေကိုidအလိုက် cartထဲထည့်လိုက်တာပါ card တစ်ခုကိုတစ်ခါထဲထည့်လို့ရအောင်လုပ်ပေးထားပါတယ်
+ 
+Index function ကတော့ add to cart က cart ထဲထည့်ထားတဲ့ cards dataတွေကို ပြန်ကြည့်လို့ ရအောင်လုပ်ပေးထားပါတယ်
+ 
+Remove from cart function ကတော့ cartထဲထည့်ထားတဲ့ cardတွေကို idနဲ့ ပြန်ထုတ်ယူထာတဲ့ functionပါ
+Cartထဲမထည့်ထားရင် cardမရှိကြောင်းကိုပါလုပ်ပေးထားပါတယ်
+ 
+Checkout function ကတော့ shopping cartထဲမာရှိတဲ့ cardတွေကို ၀ယ်လိုက်တယ်ဆိုတဲ့functionပါ ၀ယ်လိုက်ရင် cardတွေရဲ့ data and total price ကို ထုတ်ပေးမာဖစ်ပီးတော့ index(cardတွေထည့်ထားသောနေရာ)ထဲမှာရှိတဲ့ data တွေကို ပြန်ရှင်းပေးသွားမာပါ **cartထဲမာ ဘာမှမရှိရင် ၀ယ်လို့မရကြောင်းပါရေးထားပါတယ်
