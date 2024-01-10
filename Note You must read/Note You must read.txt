@@ -1,6 +1,6 @@
 Card Project
  
-Authentication ကို laravel sparten library သုံးထားပီးတော့ log in formကို manualဆောက်ထားပါတယ်
+Authentication ကို laravel spartie library သုံးထားပီးတော့ log in formကို manualဆောက်ထားပါတယ်
 
 Email-admin@gmail.com
 Password-1111
